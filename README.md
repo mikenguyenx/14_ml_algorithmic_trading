@@ -38,7 +38,7 @@ To run this analysis, make sure you install the necessary dependencies:
 
 1. Install Python: https://www.python.org/downloads/
 2. Install and run Jupyter Lab:  https://jupyter.org/install
-3. Clone the repository: `git clone "https://github.com/mikenguyenx/14_ml_algorithmic_trading"` using git or download the ZIP file and extract it to a local directory.
+3. Clone the repository: git clone "https://github.com/mikenguyenx/14_ml_algorithmic_trading" using git or download the ZIP file and extract it to a local directory.
 
 ## Usage
 
@@ -56,11 +56,11 @@ To run the script:
 
     1. Tune the training algorithm by adjusting the size of the training dataset. To do so, slice your data into different periods. Rerun the notebook with the updated parameters, and record the results in your README.md file. Answer the following question: What impact resulted from increasing or decreasing the training window?
 
-    Answer: When increasing the trading window to 6 mos, there was a slight neagative impact on the model's forecast for strategy returns.
+        Answer: When increasing the trading window to 6 mos, there was a slight neagative impact on the model's forecast for strategy returns.
 
     2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. Rerun the notebook with the updated parameters, and record the results in your README.md file. Answer the following question: What impact resulted from increasing or decreasing either or both of the SMA windows?
 
-    Answer: When updating the SMA short and long windows to 50 and 200, respectively, the new model performed worse when compared to the baseline trading algorithm. 
+        Answer: When updating the SMA short and long windows to 50 and 200, respectively, the new model performed worse when compared to the baseline trading algorithm. 
 
 3. Evaluate New Machine Learning Classifier: In this section, you’ll use the original parameters that the starter code provided. But, you’ll apply them to the performance of a second machine learning model. 
 
