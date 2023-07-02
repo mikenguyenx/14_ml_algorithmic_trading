@@ -54,11 +54,11 @@ To run the script:
 
 2. Tune the Baseline Trading Algorithm: In this section, you’ll tune, or adjust, the model’s input features to find the parameters that result in the best trading outcomes. (You’ll choose the best by comparing the cumulative products of the strategy returns.) 
 
-    1. Tune the training algorithm by adjusting the size of the training dataset. To do so, slice your data into different periods. Rerun the notebook with the updated parameters, and record the results in your README.md file. Answer the following question: What impact resulted from increasing or decreasing the training window?
+    1. Tune the training algorithm by adjusting the size of the training dataset. To do so, slice your data into different periods. Rerun the notebook with the updated parameters. Answer the following question: What impact resulted from increasing or decreasing the training window?
 
         Answer: When increasing the trading window to 6 mos, there was a slight neagative impact on the model's forecast for strategy returns.
 
-    2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. Rerun the notebook with the updated parameters, and record the results in your README.md file. Answer the following question: What impact resulted from increasing or decreasing either or both of the SMA windows?
+    2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. Rerun the notebook with the updated parameters. Answer the following question: What impact resulted from increasing or decreasing either or both of the SMA windows?
 
         Answer: When updating the SMA short and long windows to 50 and 200, respectively, the new model performed worse when compared to the baseline trading algorithm. 
 
